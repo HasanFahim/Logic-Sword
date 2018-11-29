@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <form action="contactme" method="POST">
+                <form action="{{ route('contactme') }}" method="POST">
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-md-6">

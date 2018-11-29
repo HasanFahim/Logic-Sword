@@ -5,7 +5,7 @@
                 <div class="left-part">
                     <div class="heading-title">
                         <h1 style="text-align: center;">About <span class="color-style">Us</span></h1>
-                        <p style="color: #3c2323 !important; text-align: justify;">We are living in a world where everything is faster and everyone globally connected. We believe that the next generation will be fully dependent on technology. We help build software and applications with the aim to enable individuals to spend time doing things they love to do most. We turn your mission with art of code. We treat ourselves, partners and our valuable customers with morality. Our Customers Choice considered first in our every action. We constantly improve our teams and our services to satisfy our clients. We support and inspire one another in every step. Our collective efforts make the solution we deliver</p>
+                        <p style="color: #ffffff !important; text-align: justify;">We are living in a world where everything is faster and everyone globally connected. We believe that the next generation will be fully dependent on technology. We help build software and applications with the aim to enable individuals to spend time doing things they love to do most. We turn your mission with art of code. We treat ourselves, partners and our valuable customers with morality. Our Customers Choice considered first in our every action. We constantly improve our teams and our services to satisfy our clients. We support and inspire one another in every step. Our collective efforts make the solution we deliver</p>
                     </div>
                 </div>
             </div>

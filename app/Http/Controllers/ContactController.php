@@ -9,6 +9,9 @@ use Mail;
 
 class ContactController extends Controller
 {
+	public __construct(){
+		$this->middleware('auth:admin');
+	}
     public contactme(Request $request){
 
     	Mail::send('email',
