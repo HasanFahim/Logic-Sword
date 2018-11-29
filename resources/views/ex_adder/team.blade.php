@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="heading-title" style="padding-bottom: 20px;">
-                    <h2>TEAM <span class="color-style">MEMBERS</span></h2>
+                    <h1>TEAM <span class="color-style">MEMBERS</span></h1>
                 </div>
             </div>
             <div class="row">                            

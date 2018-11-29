@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <form action="#" method="POST">
+                <form action="contactme" method="POST">
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
@@ -43,7 +43,7 @@
                             <div class="col-md-6">
 
                                 <div class="signin-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                                    <select class="custom-select form-control-lg" id="inputGroupSelect03" aria-label="Example select with button addon">
+                                    <select name="subject" class="custom-select form-control-lg" id="inputGroupSelect03" aria-label="Example select with button addon">
                                         <option selected>Subject...</option>
                                         <option value="1">Web Application</option>
                                         <option value="2">E-Commerce</option>
@@ -55,7 +55,7 @@
                                   </select>
                                     <span class="focus-input100"></span>
                                     <span class="symbol-input100">
-                                        <i class="far fa-grin-beam fa-2x"></i>
+                                        <i class="fas fa-thumbs-up fa-2x"></i>
                                     </span>                                        
                                 </div>
 
@@ -64,12 +64,12 @@
 
                         <div class="row" style="margin-top: 15px;">
                             <div class="col-md-12">
-                                <textarea class="form-control form-control-lg" id="message" rows="3" placeholder="How Can LOGICSWORD Help you?"></textarea>
+                                <textarea name="message" class="form-control form-control-lg" id="message" rows="3" placeholder="How Can LOGICSWORD Help you?"></textarea>
                             </div>
                         </div>
                         <div class="row" style="margin-top: 15px;">
                             <div class="col-md-12">
-                                <a href="#" class="btn btn-outline-warning btn-lg btn-custom float-left">Contact US</a>
+                                <a class="btn btn-outline-warning btn-lg btn-custom float-left">Contact US</a>
                             </div>
                         </div>
                     </div>
@@ -78,8 +78,8 @@
             <div class="col-md-5">
                 <div class="contact-us">
                     <div class="heading-title">
-                        <h2>Feel Free To <span class="color-style">Contact Us</span></h2>
-                        <p>Please complete the form, so we can provide efficient service. If this is argent metter please contact customer support. we are 24/7 availabe in phone call.</p>
+                        <h3>Feel Free To <span class="color-style">Contact Us</span></h3>
+                        <p>Please complete the form, so we can provide efficient <span style="color: #f8b500;">service</span>. If this is argent metter please contact customer <span style="color:#f8b500;">support</span>. we are <span style="color:#f8b500;">24/7</span> availabe in phone call.</p>
                         <ul>
                             <li><i class="fas fa-phone-square"></i> +880 1911 976364</li>
                             <li><i class="fas fa-envelope"></i> support@logicsword.com</li>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('contant')
-    <!-- {{-- --- Header ------ --}} -->
+    <!-- {{--  Header  --}} -->
     @include('ex_adder.header')
 
 

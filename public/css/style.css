@@ -22,8 +22,14 @@ a, a:hover, a:focus, a:active{
 .heading-title{
     color: #000000;
 }
-.heading-title h2 {
-    font-weight: 600;
+.heading-title h1 {
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: Raleway,Arial,Helvetica,sans-serif;
+}
+.heading-title h3 {
+    font-weight: 700;
+    text-transform: uppercase;
     font-family: 'Allerta Stencil', sans-serif !important;
 }
 .heading-title p {
@@ -83,10 +89,10 @@ header.masthead {
     box-sizing: border-box;
     -webkit-animation: slide 20s linear infinite;
 }
-@-webkit-keyframes slide {
+/*@-webkit-keyframes slide {
     from { background-position: 0 0; }
     to { background-position: 100px 100px; }
-}
+}*/
 .header-overlay {
     height: 660px;
     background: linear-gradient(to bottom, #bebcbc59, #000000a6);
@@ -157,7 +163,6 @@ p.custom-style {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    height: 440px;
 }
 .about-part .right-part .quality {
     border: 1px solid #efefef;
