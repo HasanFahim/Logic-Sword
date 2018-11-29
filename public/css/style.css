@@ -212,7 +212,7 @@ p.custom-style {
 .service-part {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #1d1c2c;
+    background-color: #212529;
 }
 .our-services .service {
     background: #fff;
@@ -222,6 +222,9 @@ p.custom-style {
     transition: all 0.3s ease-in-out;
     margin-bottom: 25px;
     height: 350px;
+}
+.our-services .service p{
+    color:#000;
 }
 .our-services .service i{
     padding-bottom: 10px;
@@ -325,10 +328,10 @@ p.custom-style {
 
 
 /*================= team start ====================*/
-.team-part{
+.team-part {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #fff;
+    background-color: #17182a;
 }
 .team {
     align-items: center;
@@ -418,6 +421,9 @@ p.custom-style {
     color: #000;
     font-family: 'Allerta Stencil', sans-serif !important;
     text-align: center;
+}
+.position p{
+    color: #000;
 }
 /*================= team close ====================*/
 
