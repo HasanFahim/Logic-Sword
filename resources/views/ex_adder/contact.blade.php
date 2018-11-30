@@ -3,11 +3,12 @@
         <div class="row">
             <div class="col-md-7">
                 <form action="{{ route('contactme') }}" method="POST">
+                    @csrf
                     <div class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="signin-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                                    <input class="input100 form-control" type="text" name="name" placeholder="Your name" value="" required autofocus>
+                                    <input class="input100 form-control" type="text" name="name" placeholder="Your name" value="" required>
                                     <span class="focus-input100"></span>
                                     <span class="symbol-input100">
                                         <i class="fas fa-user-tie fa-2x"></i>
@@ -18,7 +19,7 @@
 
                             <div class="col-md-6">
                                 <div class="signin-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                                    <input class="input100 form-control" type="email" name="email" placeholder="example@mail.com" value="" required autofocus>
+                                    <input class="input100 form-control" type="email" name="email" placeholder="example@mail.com" value="" required>
                                     <span class="focus-input100"></span>
                                     <span class="symbol-input100">
                                         <i class="fas fa-envelope fa-2x"></i>
@@ -32,7 +33,7 @@
                         <div class="row" style="margin-top: 15px;">
                             <div class="col-md-6">
                                 <div class="signin-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                                    <input class="input100 form-control" type="text" name="number" placeholder="your number" value="" required autofocus>
+                                    <input class="input100 form-control" type="text" name="number" placeholder="your number" value="" required>
                                     <span class="focus-input100"></span>
                                     <span class="symbol-input100">
                                         <i class="fas fa-phone fa-2x"></i>
@@ -45,13 +46,13 @@
                                 <div class="signin-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
                                     <select name="subject" class="custom-select form-control-lg" id="inputGroupSelect03" aria-label="Example select with button addon">
                                         <option selected>Subject...</option>
-                                        <option value="1">Web Application</option>
-                                        <option value="2">E-Commerce</option>
-                                        <option value="3">Android App</option>
-                                        <option value="4">Graphics Design</option>
-                                        <option value="5">Electrical circuit design</option>
-                                        <option value="6">IT Consultancy</option>
-                                        <option value="7">Others</option>
+                                        <option value="Web Application">Web Application</option>
+                                        <option value="E-Commerce">E-Commerce</option>
+                                        <option value="Android App">Android App</option>
+                                        <option value="Graphics Design">Graphics Design</option>
+                                        <option value="Electrical circuit design">Electrical circuit design</option>
+                                        <option value="IT Consultancy">IT Consultancy</option>
+                                        <option value="Others">Others</option>
                                   </select>
                                     <span class="focus-input100"></span>
                                     <span class="symbol-input100">
@@ -69,7 +70,7 @@
                         </div>
                         <div class="row" style="margin-top: 15px;">
                             <div class="col-md-12">
-                                <a class="btn btn-outline-warning btn-lg btn-custom float-left">Contact US</a>
+                                <button type="submit" class="btn btn-outline-warning btn-lg btn-custom float-left">Contact US</button>
                             </div>
                         </div>
                     </div>

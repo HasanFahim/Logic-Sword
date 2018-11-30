@@ -9,22 +9,21 @@ use Mail;
 
 class ContactController extends Controller
 {
-	public __construct(){
-		$this->middleware('auth:admin');
-	}
-    public contactme(Request $request){
 
+
+	
+    public function contactme(Request $request){
+		
     	Mail::send('email',
 	       array(
-	           'name' => $request->get('name'),
-	           'email' => $request->get('email'),
-	           'mobile' => $request->get('number'),
-	           'subject' => $request->get('subject'),
-	           'user_message' => $request->get('message')
-	       ), function($message)
-	   {
-	       $message->from($request->email);
-	       $message->to('sperrow13579@gmail.com', 'Admin')->subject($request->subject);
+	           'name' => $GLOBALS['request']->get('name'),
+	           'email' => $GLOBALS['request']->get('email'),
+	           'mobile' => $GLOBALS['request']->get('number'),
+	           'subject' => $GLOBALS['request']->get('subject'),
+			   'user_message' => $GLOBALS['request']->get('message')
+	       ), function($message) {
+				$message->from($GLOBALS['request']->email);
+				$message->to('sperrow13579@gmail.com', 'Admin')->subject($GLOBALS['request']->subject);
 	   });
 
     	return back();
