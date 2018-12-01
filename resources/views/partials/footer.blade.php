@@ -2,14 +2,7 @@
     <footer class="logic-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">
-                            <span class="copyright">Copy Right &copy;  LOGICSWORD 2018</span>
-                           
-                        </li>
-                    </ul>                    
-                </div>
+                
                 <div class="col-md-12">
                     <div class="footer-social footer-team">
                         <ul>
@@ -20,6 +13,16 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="col-md-12">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <span class="copyright">Copy Right &copy;  LOGICSWORD 2018</span>
+                           
+                        </li>
+                    </ul>                    
+                </div>
+                
             </div>
         </div>
     </footer>

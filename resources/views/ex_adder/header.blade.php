@@ -15,7 +15,7 @@
                             
                             </div>
                         </div>
-                        <a href="#" class="btn btn-outline-warning btn-lg btn-custom">Service</a>
+                        <a href="#services" class="btn btn-outline-warning btn-lg btn-custom js-scroll-trigger">Service</a>
                     </div>
                 </div>
             </div>

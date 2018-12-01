@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 use Mail;
+use Session;
 
 class ContactController extends Controller
 {
@@ -13,18 +14,30 @@ class ContactController extends Controller
 
 	
     public function contactme(Request $request){
+
+    	// $this->validate($request, [
+    	// 		'name'	 =>	'required|string|max:191',
+    	// 		'email'	 => 'required|email',
+    	// 		'mobile' => 'required|string',
+    	// 		'subject' => 'required|string',
+    	// 		'user_message' => 'required|string'
+    	// ]); 
+
+    	$data = [
+    		'name'	 =>	$request->name,
+			'email'	 => $request->email,
+			'mobile' => $request->mobile,
+			'subject' => $request->subject,
+			'user_message' => $request->user_message
+    	];
 		
-    	Mail::send('email',
-	       array(
-	           'name' => $GLOBALS['request']->get('name'),
-	           'email' => $GLOBALS['request']->get('email'),
-	           'mobile' => $GLOBALS['request']->get('number'),
-	           'subject' => $GLOBALS['request']->get('subject'),
-			   'user_message' => $GLOBALS['request']->get('message')
-	       ), function($message) {
-				$message->from($GLOBALS['request']->email);
-				$message->to('sperrow13579@gmail.com', 'Admin')->subject($GLOBALS['request']->subject);
+    	Mail::send('emails.contact', $data, function($message) use ($data) {
+				$message->from($data['email']);
+				$message->to('admin@logicsword.com');
+				$message->subject($data['subject']);
 	   });
+
+    	Session::flash('Your message has sent successfully !!!');
 
     	return back();
 
