@@ -7,7 +7,7 @@
                 </div>
             </div>
             <div class="row">                            
-                <div class="col-8 offset-md-2" style="padding-bottom: 20px;">
+                <div class="col-md-8 offset-md-2" style="padding-bottom: 20px;">
                     <p>Every Companies success depends on the strength of their team. We have an amazing team with some very talented and dedicated person who is always ready to do their best to satisfy our clients.</p>
                 </div>
             </div>

@@ -5,7 +5,7 @@
                 <div class="heading-title text-center">
                     <h1>OUR <span class="color-style">SERVICES</span></h1>
                     <div class="row">                            
-                        <div class="col-8 offset-md-2">
+                        <div class="col-md-8 offset-md-2">
                             <p>We are here to help you with your amazing Ideas. We provide various kinds of services to reduce the cost and time efficiently. We are Continuously Learning modern tools and method to satisfy our clients.</p>
                         </div>
                     </div>
