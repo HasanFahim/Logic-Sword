@@ -26,15 +26,15 @@ class ContactController extends Controller
     	$data = [
     		'name'	 =>	$request->name,
 			'email'	 => $request->email,
-			'mobile' => $request->mobile,
+			'mobile' => $request->number,
 			'subject' => $request->subject,
-			'user_message' => $request->user_message
+			'user_message' => $request->message
     	];
 		
     	Mail::send('emails.contact', $data, function($message) use ($data) {
-				$message->from($data['email']);
-				$message->to('admin@logicsword.com');
-				$message->subject($data['subject']);
+			$message->to('LogicSwordTech@gmail.com');
+			$message->subject($data['subject']);
+			$message->from($data['email']);
 	   });
 
     	Session::flash('Your message has sent successfully !!!');
