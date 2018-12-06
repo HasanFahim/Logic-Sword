@@ -37,6 +37,26 @@
             <div class="col-md-4">
                 <div class="card team">
                     <div class="zoom">
+                       <img src="{{asset('img/emon.jpg')}}" alt="zoom" width="300" height="300" class="alignleft size-medium wp-image-7000" />
+                    </div>
+                    <div class="position">
+                        <h4>Md Emon Ahmed</h4>
+                        <p>Web Developer</p>
+                    </div>
+                    <div class="social-team">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/pias-das-201712134/"><i class="fab fa-linkedin-in fa-1x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-1x"></i></a></li>
+                            <li><a href="https://www.facebook.com/sperrowRAAZ"><i class="fab fa-facebook-f fa-1x"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--/col-->
+            <div class="col-md-4">
+                <div class="card team">
+                    <div class="zoom">
                        <img src="{{asset('img/pias.jpg')}}" alt="zoom" width="300" height="300" class="alignleft size-medium wp-image-7000" />
                     </div>
                     <div class="position">
@@ -117,10 +137,50 @@
             <div class="col-md-4">
                 <div class="card team">
                     <div class="zoom">
+                       <img src="{{asset('img/prio.jpg')}}" alt="zoom" width="300" height="300" class="alignleft size-medium wp-image-7000" />
+                    </div>
+                    <div class="position">
+                        <h4>Bayzid Khan Prio</h4>
+                        <p>Web & App UI Designer</p>
+                    </div>
+                    <div class="social-team">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-linkedin-in fa-1x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-1x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f fa-1x"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--/col-->
+            <div class="col-md-4">
+                <div class="card team">
+                    <div class="zoom">
                        <img src="{{asset('img/Topu.jpg')}}" alt="zoom" width="300" height="300" class="alignleft size-medium wp-image-7000" />
                     </div>
                     <div class="position">
                         <h4>Zahed Mahmud</h4>
+                        <p>Technical Advisor</p>
+                    </div>
+                    <div class="social-team">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-linkedin-in fa-1x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter fa-1x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f fa-1x"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--/col-->
+                <div class="col-md-4">
+                <div class="card team">
+                    <div class="zoom">
+                       <img src="{{asset('img/download.jpg')}}" alt="zoom" width="300" height="300" class="alignleft size-medium wp-image-7000" />
+                    </div>
+                    <div class="position">
+                        <h4>Loading...</h4>
                         <p>Legal Advisor</p>
                     </div>
                     <div class="social-team">
