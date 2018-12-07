@@ -95,6 +95,62 @@ header.masthead:hover{
     transition: 5s all ease-in-out;
 }
 
+@media screen and (max-width: 992px) {
+    header.masthead {
+        text-align: center;
+        color: #fff;
+        background-image: url(../img/header-bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 660px;
+        box-sizing: border-box;
+        transition: 5s all ease-in-out;
+    }
+    header.masthead:hover{
+        background-size: cover;
+        transition: 5s all ease-in-out;
+    }
+  }
+
+@media screen and (max-width: 776px) {
+    header.masthead {
+        text-align: center;
+        color: #fff;
+        background-image: url(../img/header-bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 660px;
+        box-sizing: border-box;
+        transition: 5s all ease-in-out;
+    }
+    header.masthead:hover{
+        background-size: cover;
+        transition: 5s all ease-in-out;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    header.masthead {
+        text-align: center;
+        color: #fff;
+        background-image: url(../img/header-bg.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 660px;
+        box-sizing: border-box;
+        transition: 5s all ease-in-out;
+    }
+    header.masthead:hover{
+        background-size: cover;
+        transition: 5s all ease-in-out;
+    }
+  }
 /*@-webkit-keyframes slide {
     from { background-position: 0 0; }
     to { background-position: 100px 100px; }
